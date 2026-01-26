@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/fernferret/spytech_remakes/computer_wall_gray"
+	"$nodecal" "1"
+}

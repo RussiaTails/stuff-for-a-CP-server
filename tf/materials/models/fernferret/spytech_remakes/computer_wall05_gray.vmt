@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/fernferret/spytech_remakes/computer_wall05_gray"
+	"$selfillum" 	1
+	"$nodecal" "1"
+
+	// Use separate self-illum mask on Pre DX9 hardware
+	">=DX90"
+	{
+		"$baseTexture" 		"models/fernferret/spytech_remakes/computer_wall05_gray_noalpha"
+		"$selfillummask" 	"Models/props_spytech/computer_wall05_selfillum"
+	}
+
+	// Use redundant self-illum in base alpha on Pre DX9 hardware
+	"<DX90"
+	{
+		"$baseTexture" 	"models/fernferret/spytech_remakes/computer_wall05_gray"
+	}
+}

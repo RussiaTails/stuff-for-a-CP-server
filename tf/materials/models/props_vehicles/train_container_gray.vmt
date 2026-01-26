@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\props_vehicles\train_container_gray"
+	"$bumpmap"	"models\props_vehicles\train_container_gray_bump"
+}

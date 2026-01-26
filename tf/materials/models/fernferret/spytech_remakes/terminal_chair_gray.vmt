@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/fernferret/spytech_remakes/terminal_chair_gray"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1 
+}
